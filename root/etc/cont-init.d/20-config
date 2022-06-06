@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+[[ ! -f /app/conf/config.inc.php ]] 
+    cp /app/conf/config.inc.php-dist /app/conf/config.inc.php
